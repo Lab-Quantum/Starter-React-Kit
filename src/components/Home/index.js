@@ -1,8 +1,9 @@
 import React from 'react';
+import { HomeText } from './style';
 
 const Home = () => {
     return (
-        <span>Home</span>
+        <HomeText>Home</HomeText>
     )
 }
 

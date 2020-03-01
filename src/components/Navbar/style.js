@@ -34,4 +34,5 @@ export const MenuLinks = styled.div`
 
 export const NavLinkStyled = styled(NavLink)`
     font-size: 18px;
+    margin-left: 10px;
 `

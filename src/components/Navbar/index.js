@@ -5,12 +5,11 @@ import { NavWrapper, NavLogo, LinksWrapper, NavLinkStyled, MenuLinks} from './st
 const Navbar = () => {
     return (
         <NavWrapper>
-            <NavLogo>Starter React Kit</NavLogo>
+            <NavLogo>Teste Nave-rs</NavLogo>
             <LinksWrapper>
                 <MenuLinks>
                     <NavLinkStyled to="/">Home</NavLinkStyled>
-                    <NavLinkStyled to="/route1">Route 1</NavLinkStyled>
-                    <NavLinkStyled to="/route2">Route 2</NavLinkStyled>
+                    <NavLinkStyled to="/List">Posts</NavLinkStyled>
                 </MenuLinks>
             </LinksWrapper>
         </NavWrapper>
